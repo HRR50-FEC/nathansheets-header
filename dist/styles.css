@@ -1,0 +1,131 @@
+@import url(//db.onlinewebfonts.com/c/9f267d7e77d5e399f5d28fa7985f8235?family=Guardian+Egyp+Regular);
+
+body {
+    font-family: "Guardian Egyp Regular";
+    letter-spacing: 0.045em;
+}
+
+#topBar {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#bottomBar {
+    display: flex;
+    width: 1200px;
+    font-size: 10pt;
+    font-weight: lighter;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.toolBar {
+    margin: 10px;
+    color: rgb(48, 48, 48);
+}
+
+.toolBar:hover {
+    cursor: pointer;
+}
+
+#etsyLogo {
+    height: 45px;
+    margin: 5px;
+}
+
+#etsyLogo:hover {
+    cursor: pointer;
+}
+
+#searchIcon {
+    height: 24px;
+    margin: 1px 0px 0px -50px;
+    padding: 10px 22px 10px 15px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    transition: background-color 0.15s;
+}
+
+#searchIcon:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+#searchBar {
+    width: 900px;
+    height: 45px;
+    vertical-align: top;
+    border-radius: 25px;
+    border-width: 1px;
+    border-color: rgb(170, 170, 170);
+    border-style: solid;
+    margin-right: -12px;
+    outline: none;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 1px 1px 3px lightgray inset;
+    font-size: 13pt;
+    padding-left: 20px;
+    transition: border-color 0.15s;
+}
+
+#searchBar:hover {
+    border-color: rgb(112, 112, 112);
+}
+
+#shoppingCartIcon {
+    height: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#etsyLogoContainer {
+    vertical-align: middle;
+    margin-right: 5px;
+} 
+
+#searchBarContainer {
+    vertical-align: middle;
+} 
+
+#signInContainer {
+    vertical-align: middle;
+    text-align: center;
+    margin: 5px 5px -10px 20px;
+    width: 75px;
+    height: 40px;
+    transition: background-color 0.15s;
+    border-radius: 25px;
+} 
+
+#signIn {
+    margin-top: 10px;
+    font-size: 11pt;
+    font-style: bold;
+}
+
+#signInContainer:hover {
+    background-color: rgb(231, 231, 231);
+    cursor: pointer;
+}
+
+#shoppingCartContainer {
+    vertical-align: middle;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    transition: background-color 0.15s;
+}
+
+#shoppingCartContainer:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+#dividerLine {
+    border-bottom: lightgray;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: 100%;
+}
