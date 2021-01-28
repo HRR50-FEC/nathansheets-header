@@ -48,6 +48,7 @@ body {
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
     transition: background-color 0.15s;
+    -webkit-user-select: none;
 }
 
 #searchIcon:hover {
@@ -80,6 +81,7 @@ body {
     height: 25px;
     margin-top: 10px;
     cursor: pointer;
+    -webkit-user-select: none;
 }
 
 #etsyLogoContainer {
@@ -105,6 +107,7 @@ body {
     margin-top: 10px;
     font-size: 11pt;
     font-style: bold;
+    -webkit-user-select: none;
 }
 
 #signInContainer:hover {
