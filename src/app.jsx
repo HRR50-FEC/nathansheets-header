@@ -19,7 +19,7 @@ class App extends React.Component {
             <div>
                 <div id="topBar">
                     <div id='etsyLogoContainer'>
-                        <img id='etsyLogo' src="https://fecuiicons.s3.amazonaws.com/220px-Etsy_logo.svg.png"></img>
+                        <img id='etsyLogo' src="https://fecuiicons.s3.amazonaws.com/getsy.png"></img>
                     </div>
                     <div id='searchBarContainer'>
                         <input id='searchBar' type="text" placeholder="Search for anything"></input>
