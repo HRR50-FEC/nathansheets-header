@@ -5,9 +5,7 @@ const cors = require('cors');
 const app = express();
 const path = require('path');
 
-app.use(cors({
-    origin: 'http://localhost:9001'
-}));
+app.use(cors());
 app.use('/main', express.static('dist/main.js'));
 app.use('/css', express.static('dist/styles.css'));
 
